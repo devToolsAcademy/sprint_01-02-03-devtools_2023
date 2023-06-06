@@ -22,6 +22,6 @@ Sprint 1 | clase 6: https://www.youtube.com/watch?v=Cn2QuNyMr9I&list=PLdjMYCUbLK
 
 ---
 
-Sprint 1 | clase 7 :
+Sprint 1 | clase 7 : https://www.youtube.com/watch?v=-bs3lDpFF64
 
 ---
