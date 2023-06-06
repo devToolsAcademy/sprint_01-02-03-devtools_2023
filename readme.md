@@ -10,7 +10,7 @@ Sprint 1 | clase 3 : https://www.youtube.com/watch?v=iQ5XTgkzoMI&list=PLdjMYCUbL
 
 ---
 
-Sprint 1 | clase 4 : Linkedin
+Sprint 1 | clase 4 | LinkedIn: https://www.youtube.com/watch?v=Sxe3O0FxR60
 
 ---
 
