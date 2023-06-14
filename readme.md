@@ -29,3 +29,7 @@ Sprint 1 | clase 7 : https://www.youtube.com/watch?v=-bs3lDpFF64
 Sprint 1 | clase 8 : https://www.youtube.com/embed/ROWSVFtWyAE
 
 ---
+
+Sprint 1 | clase 9 : https://www.youtube.com/watch?v=EaSEz3XgeXk
+
+---
