@@ -1,4 +1,4 @@
-## CLASES EN YOUTUBE :fa-youtube-play: 
+## CLASES EN YOUTUBE :fa-youtube-play:
 
 
 |  Sprint  |  Clase   | Tema |
