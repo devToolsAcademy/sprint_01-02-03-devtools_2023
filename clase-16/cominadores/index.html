@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Párrafo 1</p>
+      <!-- Seleccionado -->
+      <span>
+        <p>Párrafo 2</p>
+        <!-- No seleccionado (no es hijo directo de div) -->
+      </span>
+      <p>Párrafo 3</p>
+      <!-- Seleccionado -->
+    </div>
+    <div>
+      <h2 class="title">Título</h2>
+      <p>Párrafo 1</p>
+      <!-- No seleccionado -->
+      <p>Párrafo 2</p>
+      <!-- Seleccionado -->
+      <div>
+        <p>Párrafo 3</p>
+        <!-- No seleccionado -->
+      </div>
+      <p>Párrafo 4</p>
+      <!-- No seleccionado -->
+    </div>
+    <div>
+      <h2 class="othertitle">Título</h2>
+      <p>Párrafo 1</p>
+      <!-- No seleccionado -->
+      <p>Párrafo 2</p>
+      <!-- Seleccionado -->
+      <div>
+        <p>Párrafo 3</p>
+        <!-- Seleccionado -->
+      </div>
+      <p>Párrafo 4</p>
+      <!-- No seleccionado -->
+    </div>
+  </body>
+</html>

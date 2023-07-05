@@ -1,0 +1,16 @@
+/* Estilos para los párrafos que son hijos directos de div */
+.container > p {
+  color: red;
+}
+
+/* Estilos para el primer párrafo adyacente que sigue a un h2 */
+.title + p {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+/* Estilos para todos los párrafos hermanos que siguen a un h2 */
+.othertitle ~ p {
+  color: aqua;
+  text-decoration: underline;
+}
