@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 70%;
+  height: 4px;
+  background-color: black;
+  transition: all 0.5s ease;
+}
+
+.menu {
+  width: 200px;
+  height: 200px;
+  background-color: #f1f1f1;
+  transition: left 0.3s ease;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}

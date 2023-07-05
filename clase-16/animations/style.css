@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ejemplo de animacion 1 */
+.section-1 {
+  border: 3px black solid;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+/* ejemplo de animacion 2 */
+
+.section-2 {
+  height: 150px;
+  margin-top: 50px;
+  padding: 20px 100px;
+  border: 3px black solid;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 1s, height 1s, background-color 1s;
+}
+
+.box-1:hover {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+/* ejemplo de animacion 3 */
+
+.section-3 {
+  height: 150px;
+  margin-top: 50px;
+  padding: 20px 100px;
+  border: 3px black solid;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: transform 1s;
+}
+
+.box-2:hover {
+  transform: rotate(45deg) scale(1.5);
+}

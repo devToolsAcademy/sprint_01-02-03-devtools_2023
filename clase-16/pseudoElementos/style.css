@@ -1,0 +1,23 @@
+/* Pseudo-elementos */
+/* ::before - Inserta contenido antes del contenido del elemento */
+.box::before {
+  content: "Antes";
+  color: red;
+}
+
+/* ::after - Inserta contenido después del contenido del elemento */
+.box::after {
+  content: "Después";
+  color: blue;
+}
+
+/* ::first-letter - Estiliza la primera letra del texto dentro del elemento */
+.paragraph::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input::placeholder {
+  color: purple;
+  background-color: azure;
+}

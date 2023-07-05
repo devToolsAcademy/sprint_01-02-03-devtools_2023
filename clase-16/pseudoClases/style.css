@@ -1,0 +1,16 @@
+/* Pseudo-clases */
+/* :hover - Cambia el color de fondo cuando se pasa el cursor sobre el elemento */
+.button:hover {
+  background-color: lightblue;
+}
+
+/* :active - Cambia el color de fondo cuando el botón está presionado */
+.button:active {
+  background-color: lightgreen;
+}
+
+/* :focus - Cambia el estilo cuando el elemento tiene el foco */
+.input:focus {
+  border: 3px solid red;
+  color: aqua;
+}
