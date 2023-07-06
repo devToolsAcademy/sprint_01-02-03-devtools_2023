@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.menu-toggle {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
 .hamburger {
   width: 40px;
   height: 40px;
@@ -24,10 +32,29 @@
   transition: all 0.5s ease;
 }
 
+.menu-toggle:checked ~ .menu {
+  display: block;
+}
+
+.menu-toggle:checked ~ label .hamburger .line:nth-child(1) {
+  transform: rotate(45deg) translateY(8px) translateX(8px);
+}
+
+.menu-toggle:checked ~ label .hamburger .line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle:checked ~ label .hamburger .line:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px) translateX(8px);
+}
+
 .menu {
   width: 200px;
   height: 200px;
   background-color: #f1f1f1;
+  position: absolute;
+  top: 50px;
+  left: -200px;
   transition: left 0.3s ease;
 }
 
@@ -36,4 +63,8 @@
   padding: 10px;
   text-decoration: none;
   color: black;
+}
+
+.menu-toggle:checked ~ .menu {
+  left: 0;
 }
