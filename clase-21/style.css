@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  height: 10vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  background-color: #008cba;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #005580;
+}
+
+main {
+  padding: 20px;
+}
+
+#printButton {
+  margin-top: 20px;
+}
+
+/* Styles for Hotel Cards */
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 300px;
+  padding: 16px;
+  text-align: center;
+}
+
+.hotel-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.hotel-name {
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
