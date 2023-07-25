@@ -24,16 +24,23 @@ buttonConsulta.addEventListener("click", async () => {
   // recorremos el arreglo con las respuesta y usamos los elementos del DOM
   // para imprimir las cards que hay en la respuesta UNA O UNA
   data.forEach((hotel) => {
+    // A partir de aqui con cada ITERASION del for each se repiten los siguientes pasos
+    // para crear las cards de los hoteles
+
+    //Creamos el div contenedor de la informacion, ponemos la clase y lo ubicamos ene l main
     const cardHotel = document.createElement("div");
     cardHotel.className = "card";
     main.appendChild(cardHotel);
 
+    //Creamos la imagen, los atributos src, alt, class y la ubicamos como hija del div
     const imagenHotel = document.createElement("img");
     imagenHotel.setAttribute("src", hotel.photo);
     imagenHotel.setAttribute("alt", hotel.name);
     imagenHotel.className = "hotel-image";
     cardHotel.appendChild(imagenHotel);
 
+    //Creamos titulo con el nombre de los hoteles, le asignamos el texto,
+    //una clase y lo la ubicamos como hija del div
     const nombreHotel = document.createElement("h2");
     nombreHotel.innerText = hotel.name;
     nombreHotel.className = "hotel-name";

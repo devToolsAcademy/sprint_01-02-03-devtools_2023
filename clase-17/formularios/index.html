@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Formulario de Ejemplo</h2>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="genero">Género:</label>
+          <input
+            type="radio"
+            id="genero-masculino"
+            name="genero"
+            value="masculino"
+            required
+          />
+          <label for="genero-masculino">Masculino</label>
+          <input
+            type="radio"
+            id="genero-femenino"
+            name="genero"
+            value="femenino"
+            required
+          />
+          <label for="genero-femenino">Femenino</label>
+          <input
+            type="radio"
+            id="genero-otro"
+            name="genero"
+            value="otro"
+            required
+          />
+          <label for="genero-otro">Otro</label>
+        </div>
+        <div class="form-group">
+          <label for="suscripcion">Suscripción:</label>
+          <input
+            type="checkbox"
+            id="suscripcion-noticias"
+            name="suscripcion"
+            value="noticias"
+          />
+          <label for="suscripcion-noticias">Noticias</label>
+          <input
+            type="checkbox"
+            id="suscripcion-promociones"
+            name="suscripcion"
+            value="promociones"
+          />
+          <label for="suscripcion-promociones">Promociones</label>
+        </div>
+        <div class="form-group">
+          <label for="pais">País:</label>
+          <select id="pais" name="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Perú">Perú</option>
+            <option value="Uruguay">Uruguay</option>
+          </select>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
